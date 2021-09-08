@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`==Componentes== componente 1`] = `
+<Fragment>
+  <h1>
+    Hola soy Andres!
+    !
+  </h1>
+  <h2>
+    ¡Como estas!
+  </h2>
+</Fragment>
+`;

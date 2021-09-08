@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 50px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -9,5 +10,35 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ monospace;
+}
+.card-grid{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.card{
+  align-content: center;
+  width: auto;
+  border: 1px solid gray;
+  border-radius:6px;
+  margin-botton:10px;
+  margni-right:10px;
+  overflow:hidden;
+}
+input{
+  color: rgb(184, 184, 177);
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.card p{
+  padding: 5px;
+  text-align: center;
+}
+
+.card img{
+  max-height: 170px;
+  width: auto;
 }
