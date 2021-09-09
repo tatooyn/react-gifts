@@ -21,6 +21,7 @@ const AddCategory= ({setcategorias=()=>{}})=>{
                     className='form-control'
                     placeholder='Añade cualquier palabra o titulo'/>
                     {nuevaCategoria}
+                <button type='submit'>Añadir</button>
             </div>
         </form>
     </>;
