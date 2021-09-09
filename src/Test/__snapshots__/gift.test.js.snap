@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`== AddGift component == °snapshot 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <label>
+        Nueva Categoria
+      </label>
+      <input
+        className="form-control"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+  </form>
+</Fragment>
+`;
+
+exports[`== Gift component == °Gift snapshot 1`] = `
+<div
+  className="card animate__animated animate__fadeInDown"
+>
+  <h3>
+    one piece
+  </h3>
+  <img
+    alt={1}
+    src="htttp://blabla"
+  />
+</div>
+`;
+
+exports[`== Gifts component == °Gifts snapshot empty 1`] = `
+<Fragment>
+  <h3>
+    loading
+  </h3>
+  <h1>
+    mononoke
+  </h1>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`== gifts App == ° Number of Gifts 1`] = `
+<Fragment>
+  <h2>
+    GiftExpertApp
+  </h2>
+  <hr />
+  <AddCategory
+    setcategorias={[Function]}
+  />
+  <ol>
+    <Gifts
+      category="one piece"
+      key="one piece"
+    />
+    <Gifts
+      category="batman"
+      key="batman"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`== gifts App == °snaopshot 1`] = `
+<Fragment>
+  <h2>
+    GiftExpertApp
+  </h2>
+  <hr />
+  <AddCategory
+    setcategorias={[Function]}
+  />
+  <ol />
+</Fragment>
+`;

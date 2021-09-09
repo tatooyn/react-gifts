@@ -8,11 +8,7 @@ const useLoading=(category)=>{
     });
     useEffect(() => {
         getGifts(category)
-            .then((img)=>{
-                setTimeout(() => {
-                    setdata({data:img,loading:false});
-                }, 1500);
-            });
+            .then(img=>setdata({data:img,loading:false}));
     }, [category]);
     return data;
 }

@@ -1,5 +1,7 @@
 import React,{useState} from 'react';
 import PropTypes from 'prop-types'
+// ComPadre: "setcategorias()": 
+// const [categorias, setcategorias] = useState(['One Piece']);
 const AddCategory= ({setcategorias=()=>{}})=>{
     const [nuevaCategoria, setnuevaCategoria] = useState('');
 
@@ -13,10 +15,11 @@ const AddCategory= ({setcategorias=()=>{}})=>{
     return <>
         <form onSubmit={enviar}>
             <div className='form-group'>
-                <label>Nueva Categoria</label>
+                <label>Añade una Categoria</label>
                 <input value={nuevaCategoria}
                     onChange={e=>setnuevaCategoria(e.target.value)}
-                    className='form-control'/>
+                    className='form-control'
+                    placeholder='Añade cualquier palabra o titulo'/>
                     {nuevaCategoria}
             </div>
         </form>

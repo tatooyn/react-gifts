@@ -6,7 +6,7 @@ import useLoading from '../hooks/useLoading';
 
 const Gifts= ({category=''})=>{
     const {data:image, loading}=useLoading(category);
-    console.log('image',image);
+
     const imagesRender=image.map(img=><Gift key={img.id} {...img}/>);
     return <>
         {loading && <h3>loading</h3>}
